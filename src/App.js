@@ -12,22 +12,20 @@ class App extends Component {
   render() {
 
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
         <>
           <Header />
 
           <main>
-            <Routes>
-              <Route path="/" exact element={<Home />} />
-              <Route path="/about" exact element={<About />} />
-              <Route path="/shopnow" exact element={<ShopNow />} />
-              <Route path="/product/:id" exact element={<Product />} />
-            </Routes>
+
+            <Route path="/" exact element={<Home />} />
+            <Route path="/about" exact element={<About />} />
+            <Route path="/shopnow" exact element={<ShopNow />} />
+            <Route path="/product/:id" exact element={<Product />} />
+
           </main>
 
           <Footer />
         </>
-      </HashRouter>
 
     )
 
