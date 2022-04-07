@@ -1,0 +1,43 @@
+$dark-blue: #1d4079;
+$blue: #3b82f6;
+$light-blue: #5cbcf4;
+$sky-blue: #b1cdfb;
+
+.shopNow-hero {
+    background-color: $light-blue;
+    margin-bottom: 50px;
+    &__wrapper {
+        padding: 75px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-text {
+            width: 40%;
+        }
+        &-img {
+            width: 40%;
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+            &--snowball{
+                position: absolute;
+                bottom: -10%;
+                left: -10%;
+                width: 20%;
+                height: auto;
+            }
+        }
+    }
+}
+
+.productsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &-el {
+        margin: 0 4% 85px;
+        width: 25%;
+    }
+}

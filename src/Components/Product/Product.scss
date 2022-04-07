@@ -1,0 +1,42 @@
+$dark-blue: #1d4079;
+$blue: #2c62b9;
+$light-blue: #3b82f6;
+$sky-blue: #b1cdfb;
+
+.productPage {
+    min-height: 100vh;
+    &-wrapper {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        &_images {
+            width: 40%;
+        }
+        &_description {
+            width: 30%;
+            margin-left: 50px;
+            &-title {
+                font-family: "Mitr", sans-serif;
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+            &-price {
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.swiper {
+    // width: 600px;
+    & img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: $light-blue;
+}

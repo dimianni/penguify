@@ -1,0 +1,30 @@
+$dark-blue: #1d4079;
+$blue: #2c62b9;
+$light-blue: #3b82f6;
+$sky-blue: #b1cdfb;
+
+main {
+  margin-top: 100px;
+}
+
+.pageTitle {
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button {
+  font-weight: 600;
+  padding: 16px 28px;
+  background-color: #fa9233;
+  border: 1px solid #d5dae1;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #f8bb54;
+    transition: all 0.2s ease-in-out;
+  }
+}

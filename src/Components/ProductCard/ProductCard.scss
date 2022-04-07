@@ -1,0 +1,16 @@
+.productCard-wrapper {
+    &_img {
+        width: 100%;
+        & img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+    &_title {
+        font-family: "Mitr", sans-serif;
+        font-size: 22px;
+    }
+    &_price {
+    }
+}
