@@ -61,9 +61,6 @@ class Header extends Component {
                         <Link to="/" className="header-wrapper__logo">
                             <img src={this.state.isTop ? Logo : LogoScroll} alt="" />
                         </Link>
-                        {/* <a href="/" className="header-wrapper__logo">
-                            <img src={this.state.isTop ? Logo : LogoScroll} alt="" />
-                        </a> */}
 
                         <div className="header-wrapper__icons">
                             <ul className="header-wrapper__icons--list">
