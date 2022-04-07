@@ -1,5 +1,6 @@
 {
   "name": "penguify",
+  "homepage": "http://dimianni.github.io/penguify",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,6 @@
     "swiper": "^8.0.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://dimianni.github.io/penguify",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

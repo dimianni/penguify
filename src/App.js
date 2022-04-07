@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, HashRouter } from "react-router-dom";
 import './App.scss';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -12,21 +12,23 @@ class App extends Component {
   render() {
 
     return (
-      <>
-        <Header />
+      <HashRouter>
+        <>
+          <Header />
 
-        <main>
-          <Routes>
-            <Route path="/penguify/" element={<Home />} />
-            <Route path="/penguify/about" element={<About />} />
-            <Route path="/penguify/shopnow" element={<ShopNow />} />
-            <Route path="/penguify/product/:id" element={<Product />} />
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="about" element={<About />} />
+              <Route path="shopnow" element={<ShopNow />} />
+              <Route path="/product/:id" element={<Product />} />
 
-          </Routes>
-        </main>
-     
-        <Footer />
-      </>
+            </Routes>
+          </main>
+
+          <Footer />
+        </>
+      </HashRouter>
 
     )
 
