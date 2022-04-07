@@ -12,20 +12,20 @@ class App extends Component {
   render() {
 
     return (
-        <>
-          <Header />
+      <>
+        <Header />
 
-          <main>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/shopnow" element={<ShopNow />} />
+            <Route path="/product/:id" element={<Product />} />
+          </Routes>
+        </main>
 
-            <Route path="/" exact element={<Home />} />
-            <Route path="/about" exact element={<About />} />
-            <Route path="/shopnow" exact element={<ShopNow />} />
-            <Route path="/product/:id" exact element={<Product />} />
-
-          </main>
-
-          <Footer />
-        </>
+        <Footer />
+      </>
 
     )
 

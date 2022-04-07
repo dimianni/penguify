@@ -67,7 +67,7 @@ const Product = () => {
                                 {product.images.map(img => {
                                     return (
                                         <SwiperSlide>
-                                            <img src={`../images/${img}.webp`} />
+                                            <img src={`images/${img}.webp`} />
                                         </SwiperSlide>
                                     )
 
