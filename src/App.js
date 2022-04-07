@@ -19,8 +19,8 @@ class App extends Component {
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="about" element={<About />} />
-              <Route path="shopnow" element={<ShopNow />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/shopnow" element={<ShopNow />} />
               <Route path="/product/:id" element={<Product />} />
 
             </Routes>
