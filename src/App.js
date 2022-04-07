@@ -17,10 +17,10 @@ class App extends Component {
 
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="shopnow" element={<ShopNow />} />
-            <Route path="/product/:id" element={<Product />} />
+            <Route path="/penguify/" element={<Home />} />
+            <Route path="/penguify/about" element={<About />} />
+            <Route path="/penguify/shopnow" element={<ShopNow />} />
+            <Route path="/penguify/product/:id" element={<Product />} />
 
           </Routes>
         </main>
