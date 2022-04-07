@@ -18,11 +18,10 @@ class App extends Component {
 
           <main>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/shopnow" element={<ShopNow />} />
-              <Route path="/product/:id" element={<Product />} />
-
+              <Route path="/" exact element={<Home />} />
+              <Route path="/about" exact element={<About />} />
+              <Route path="/shopnow" exact element={<ShopNow />} />
+              <Route path="/product/:id" exact element={<Product />} />
             </Routes>
           </main>
 
