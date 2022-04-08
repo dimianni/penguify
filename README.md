@@ -2,7 +2,7 @@
 
 This is a project made together with Kendra Hinz for Phi Beta Lambda competition. It is an ecommerce store which offers repurposed winter clothes for kids. Quick technical facts about the project:
 
-- The website is built with [React](https://reactjs.org/), a modern JavaScript library which allows creating SPAs. 
+- The website is built with [React](https://reactjs.org/), a modern JavaScript library. We went for this option because the majority of web apps nowadays use it (including Shopify - famous ecommerce CMS). Besides, it makes the code modular and very efficient. 
 - [Create React App](https://create-react-app.dev/) is used as the base environment. 
 - The site was deployed with gh-pages. More information on the process can be found [here](https://create-react-app.dev/docs/deployment/#github-pages).
 - [Axios](https://www.npmjs.com/package/axios) is used to retrieve data from the json file (our primitive database). Here is the link to it:
