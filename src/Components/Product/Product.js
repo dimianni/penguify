@@ -78,7 +78,7 @@ const Product = () => {
                             <div className='productPage-wrapper_description-title'>{product.title}</div>
                             <div className='productPage-wrapper_description-price'>${product.price}</div>
 
-                            <button className="button primary">Add to card</button>
+                            <button className="button primary">Add to cart</button>
                         </div>
                     </div>
 

@@ -1,0 +1,47 @@
+.About {
+    &-hero {
+        background-color: #00c0ff;
+        color: #fff;
+        margin-bottom: 50px;
+        &__wrapper {
+            padding: 75px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-text {
+                width: 40%;
+            }
+            &-img {
+                width: 40%;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                // &--snowball{
+                //     position: absolute;
+                //     bottom: -10%;
+                //     left: -10%;
+                //     width: 20%;
+                //     height: auto;
+                // }
+                //   &--snowflakes{
+                //     position: absolute;
+                //     top: -6%;
+                //     right: -6%;
+                //     width: 23%;
+                //     height: auto;
+                // }
+            }
+        }
+    }
+    &-misson {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400px;
+        max-width: 660px;
+        margin: 0 auto;
+        color: #333;
+        margin-bottom: 50px;
+    }
+}
