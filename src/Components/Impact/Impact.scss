@@ -178,7 +178,6 @@
     .Impact-story__wrapper-text{
         order: 2;
         margin-top: 80px;
-        padding: 0;
     }
     .Impact-story__wrapper-img{
         order: 1;
@@ -199,4 +198,11 @@
         width: 100%;
         margin-bottom: 30px;
     }  
+
+    .Impact-story__wrapper-text--points li{
+        flex-direction: column;
+    }
+    .Impact-story__wrapper-text--points li h4,  .Impact-story__wrapper-text--points li p{
+        width: 100%;
+    }
 }
