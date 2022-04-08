@@ -17,6 +17,7 @@ https://penguify-pbl-default-rtdb.firebaseio.com/products.json
 ```bash
 git clone https://github.com/dimianni/penguify.git
 ```
+NOTE: [Node](https://nodejs.org/en/) has to be installed globally on your machine. It is an environment which allows the execution of JavaScript locally on your machine.
 
 ## Usage
 
