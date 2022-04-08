@@ -1,7 +1,4 @@
-$dark-blue: #1d4079;
-$blue: #3b82f6;
-$light-blue: #5cbcf4;
-$sky-blue: #b1cdfb;
+
 
 .header {
     position: fixed;
@@ -9,7 +6,7 @@ $sky-blue: #b1cdfb;
     left: 0;
     z-index: 1001;
     width: 100%;
-    background-color: $light-blue;
+    background-color: #00c0ff;
     height: 100px;
     display: flex;
     align-items: center;

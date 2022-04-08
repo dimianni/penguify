@@ -1,10 +1,7 @@
-$dark-blue: #1d4079;
-$blue: #3b82f6;
-$light-blue: #5cbcf4;
-$sky-blue: #b1cdfb;
 
 .shopNow-hero {
-    background-color: $light-blue;
+    background-color: #00c0ff;
+    color: #fff;
     margin-bottom: 50px;
     &__wrapper {
         padding: 75px 0;
@@ -26,6 +23,13 @@ $sky-blue: #b1cdfb;
                 bottom: -10%;
                 left: -10%;
                 width: 20%;
+                height: auto;
+            }
+              &--snowflakes{
+                position: absolute;
+                top: -6%;
+                right: -6%;
+                width: 23%;
                 height: auto;
             }
         }

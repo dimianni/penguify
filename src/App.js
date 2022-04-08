@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Routes, Route, Link, HashRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import './App.scss';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -17,7 +17,7 @@ class App extends Component {
 
         <main>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/shopnow" element={<ShopNow />} />
             <Route path="/product/:id" element={<Product />} />

@@ -8,6 +8,7 @@ import './ShopNow.scss';
 import Kids from './kids.png'
 
 import Snowball from '../../snowball.svg'
+import Snowflakes from '../../snowflakes.svg'
 
 class ShopNow extends Component {
 
@@ -62,10 +63,12 @@ class ShopNow extends Component {
                                 <div className="shopNow-hero__wrapper-img--snowball">
                                     <img src={Snowball} />
                                 </div>
+                                <div className="shopNow-hero__wrapper-img--snowflakes">
+                                    <img src={Snowflakes} />
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
 
                 <div className="container">
