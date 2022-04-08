@@ -1,4 +1,3 @@
-
 .shopNow-hero {
     background-color: #00c0ff;
     color: #fff;
@@ -10,6 +9,7 @@
         align-items: center;
         &-text {
             width: 40%;
+            margin-right: 30px;
         }
         &-img {
             width: 40%;
@@ -18,14 +18,14 @@
                 width: 100%;
                 height: auto;
             }
-            &--snowball{
+            &--snowball {
                 position: absolute;
                 bottom: -10%;
                 left: -10%;
                 width: 20%;
                 height: auto;
             }
-              &--snowflakes{
+            &--snowflakes {
                 position: absolute;
                 top: -6%;
                 right: -6%;
@@ -43,5 +43,22 @@
     &-el {
         margin: 0 4% 85px;
         width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shopNow-hero__wrapper {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .shopNow-hero__wrapper-text,
+    .shopNow-hero__wrapper-img {
+        width: 100%;
+    }
+    .shopNow-hero__wrapper-text{
+        margin-bottom: 30px;
+    }
+    .productsList-el{
+        width: 40%;
     }
 }

@@ -1,24 +1,202 @@
-.Impact{
-    & .container{
-        width: 100%;
-        height: 100%;
-        min-height: 626px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-
-    }
-    &-hero{
+.Impact {
+    &-hero {
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 0;
-        &__wrapper{
+        & .container {
+            width: 100%;
+            height: 100%;
+            min-height: 626px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        &__wrapper {
             text-align: right;
             color: #00c0ff;
-            &-text{
+            position: relative;
+            &-text {
                 margin-bottom: 30px;
+            }
+            &-img {
+                position: absolute;
+                bottom: 0;
+                left: -20%;
+                width: 25%;
+                & img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                }
             }
         }
     }
+
+    &-misson {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400px;
+        max-width: 660px;
+        margin: 0 auto;
+        color: #333;
+        margin-bottom: 50px;
+        padding: 0 15px;
+    }
+
+    &-story {
+        margin-bottom: 70px;
+
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            &-img {
+                width: 35%;
+                position: relative;
+                & img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                }
+                &--snowball {
+                    position: absolute;
+
+                    top: -6%;
+                    right: -6%;
+                    width: 30%;
+                    height: auto;
+                }
+                &--snowflakes {
+                    position: absolute;
+                    bottom: -5%;
+                    left: -5%;
+                    width: 23%;
+                    height: auto;
+                }
+            }
+            &-text {
+                width: 60%;
+                padding: 50px;
+                &--title {
+                    margin-bottom: 25px;
+                }
+                &--points {
+                    & li {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        & h4 {
+                            width: 35%;
+                            position: relative;
+                            padding-left: 60px;
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                left: -10px;
+                                transform: translateY(-50%);
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                background-color: #22c55e;
+                            }
+                        }
+                        & p {
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-help {
+        &__wrapper {
+            &-title {
+                margin-bottom: 25px;
+            }
+            &-inputs {
+                display: flex;
+                justify-content: space-between;
+                &--el {
+                    // padding: 50px 0;
+                    margin-bottom: 50px;
+                    background: #ffffff;
+                    border-radius: 15px;
+                    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+                    width: 30%;
+                    padding: 30px;
+                    min-height: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    label {
+                        font-size: 22px;
+                        font-weight: 600;
+                    }
+                    & input[type="text"] {
+                        margin-top: 20px;
+                        border: 1px solid #333;
+                        border-radius: 50px;
+                        font-size: 16px;
+                        background: transparent;
+                        line-height: 24px;
+                        padding: 11px 0px 11px 25px;
+                        width: 100%;
+                        outline: none !important;
+                    }
+                    &:nth-child(1) {
+                        & input[type="submit"] {
+                            background-color: #22c55e;
+                        }
+                    }
+                    &:nth-child(2) {
+                        & input[type="submit"] {
+                            background-color: #ff6472;
+                        }
+                    }
+                    &:nth-child(3) {
+                        & input[type="submit"] {
+                            background-color: #ffd547;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .Impact-story__wrapper{
+        flex-direction: column;
+    }
+    .Impact-story__wrapper-text, .Impact-story__wrapper-img{
+        width: 100%;
+    }
+    .Impact-story__wrapper-text{
+        order: 2;
+        margin-top: 80px;
+        padding: 0;
+    }
+    .Impact-story__wrapper-img{
+        order: 1;
+    }
+    .Impact-help__wrapper-inputs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Impact-help__wrapper-inputs--el{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+   .Impact-help__wrapper-inputs--el{
+        width: 100%;
+        margin-bottom: 30px;
+    }  
 }

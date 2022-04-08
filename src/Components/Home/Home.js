@@ -78,7 +78,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='Home-todo__learnmore'>
-                        <Link to="/about">
+                        <Link to="/impact">
                             <button className='button secondary'>Learn more</button>
                         </Link>
                     </div>

@@ -3,6 +3,7 @@ import './About.scss';
 import KidsAbout from './kids-about.png'
 import AboutStory from './about-story.png'
 import Dimon from './dimon.jpg'
+import Kendra from './kendra.jpg'
 
 import Snowball from '../../snowball.svg'
 import Snowflakes from '../../snowflakes.svg'
@@ -49,15 +50,11 @@ const About = () => {
                             <ul className="About-story__wrapper-text--points">
                                 <li>
                                     <h4>How it started</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ante ligula. Proin ligula libero, bibendum sed iaculis eget, volutpat et augue.</p>
-                                </li>
-                                <li>
-                                    <h4>Now</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ante ligula. Proin ligula libero, bibendum sed iaculis eget, volutpat et augue.</p>
+                                    <p>Growing up in South Dakota, we know about the harsh winters that they can bring. Many rural areas can struggle at times. Winter clothing can be put on the back burner. Growing children requires a lot.</p>
                                 </li>
                                 <li>
                                     <h4>Looking forward</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ante ligula. Proin ligula libero, bibendum sed iaculis eget, volutpat et augue.</p>
+                                    <p>Aberdeen is a very supportive community, so we know this project will do well. We plan to work other stores to match donations as well as other non-profits to help as much as we need. </p>
                                 </li>
                             </ul>
                         </div>
@@ -76,7 +73,7 @@ const About = () => {
                         <div className="About-team__wrapper-bottom">
                             <div className="About-team__wrapper-bottom--officer">
                                 <div className="About-team__wrapper-bottom--officer_image">
-                                    <img src={Dimon} />
+                                    <img src={Kendra} />
                                 </div>
                                 <div className="About-team__wrapper-bottom--officer_descr">
                                     <h4>Kendra H.</h4>

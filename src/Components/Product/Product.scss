@@ -40,3 +40,19 @@ $sky-blue: #b1cdfb;
 .swiper-button-prev {
     color: $light-blue;
 }
+
+@media screen and (max-width: 768px) {
+    .productPage{
+        margin-bottom: 50px;
+    }
+    .productPage-wrapper {
+        flex-direction: column;
+    }
+    .productPage-wrapper_images,
+    .productPage-wrapper_description {
+        width: 100%;
+    }
+    .productPage-wrapper_description {
+        margin-left: 0;
+    }
+}

@@ -91,7 +91,6 @@
                         font-weight: 500;
                         margin: 10px 0;
                     }
-                    
                 }
             }
         }
@@ -117,6 +116,48 @@
         }
         &__title {
             margin-bottom: 25px;
+            text-align: center;
         }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Home-hero__wrapper {
+        background-size: cover;
+        background-position: center;
+    }
+    .Home-hero__wrapper-text--btns button:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Home-hero__wrapper {
+        flex-direction: column;
+    }
+    .Home-hero__wrapper-text,
+    .Home-hero__wrapper-img {
+        width: 100%;
+    }
+    .Home-hero__wrapper-text {
+        margin-right: 0;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    .Home-hero__wrapper-img--penguin {
+        bottom: -19%;
+        left: 0%;
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Home-todo__wrapper{
+        flex-direction: column;
+    }
+    .Home-todo__wrapper-el{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 15px;
     }
 }
