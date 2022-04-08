@@ -38,13 +38,16 @@ class Header extends Component {
                 <div className="container">
                     <div className="header-wrapper">
 
-                        
+                    
+                        {/* <!-- Logo --> */}
+                        <Link to="/" className="header-wrapper__logo">
+                            <img src={this.state.isTop ? Logo : LogoScroll} alt="" />
+                        </Link>
 
                         {/* <!-- Menu --> */}
                         <nav className={this.state.burgerActive ? 'header-wrapper__menu menuActive' : 'header-wrapper__menu'}>
-                            <ul className="header-wrapper__menu--list">
+                            <ul onClick={this.toggleClass} className="header-wrapper__menu--list">
                                 <li className="header-wrapper__menu--list_el">
-                                    {/* <a href="#">Shop Now</a> */}
                                     <Link to="/shopnow">
                                         Shop Now
                                     </Link>
@@ -54,15 +57,17 @@ class Header extends Component {
                                         About
                                     </Link>
                                 </li>
+                                <li className="header-wrapper__menu--list_el">
+                                    <Link to="/impact">
+                                        Impact
+                                    </Link>
+                                </li>
                             </ul>
                         </nav>
 
-                        {/* <!-- Logo --> */}
-                        <Link to="/" className="header-wrapper__logo">
-                            <img src={this.state.isTop ? Logo : LogoScroll} alt="" />
-                        </Link>
+                 
 
-                        <div className="header-wrapper__icons">
+                        {/* <div className="header-wrapper__icons">
                             <ul className="header-wrapper__icons--list">
                                 <li className="header-wrapper__icons--list_el">
                                     <a href="#">
@@ -75,7 +80,7 @@ class Header extends Component {
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
 
                         {/* <!-- Burger --> */}
                         <div className="header-wrapper__burger">
