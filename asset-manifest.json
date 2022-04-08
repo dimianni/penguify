@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/penguify/static/css/main.e8fe4cd0.css",
+    "main.css": "/penguify/static/css/main.9b51e257.css",
     "main.js": "/penguify/static/js/main.e9944428.js",
     "static/js/787.3b65a83e.chunk.js": "/penguify/static/js/787.3b65a83e.chunk.js",
     "static/media/kendra.jpg": "/penguify/static/media/kendra.4f361eb964413ec865e7.jpg",
@@ -18,12 +18,12 @@
     "static/media/snowflakes.svg": "/penguify/static/media/snowflakes.5f717596f4a193d89b4232ee129ed1a4.svg",
     "static/media/snowball.svg": "/penguify/static/media/snowball.37bd42c3cd7a8730985356ca8d8671ce.svg",
     "index.html": "/penguify/index.html",
-    "main.e8fe4cd0.css.map": "/penguify/static/css/main.e8fe4cd0.css.map",
+    "main.9b51e257.css.map": "/penguify/static/css/main.9b51e257.css.map",
     "main.e9944428.js.map": "/penguify/static/js/main.e9944428.js.map",
     "787.3b65a83e.chunk.js.map": "/penguify/static/js/787.3b65a83e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8fe4cd0.css",
+    "static/css/main.9b51e257.css",
     "static/js/main.e9944428.js"
   ]
 }
